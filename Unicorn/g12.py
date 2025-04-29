@@ -385,7 +385,7 @@ def g12():
 
     ending.draw(screen)
 
-    for line, titles_delay in zip(titles, range(400, 1100, 30)):
+    for line, titles_delay in zip(titles, range(400, 1120, 30)):
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
