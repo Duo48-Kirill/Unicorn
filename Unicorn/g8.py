@@ -385,7 +385,7 @@ def g8():
 
     ending.draw(screen)
 
-    for line, titles_delay in zip(titles, range(250, 700, 20)):
+    for line, titles_delay in zip(titles, range(250, 750, 20)):
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
